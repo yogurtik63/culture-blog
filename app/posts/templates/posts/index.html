@@ -8,7 +8,7 @@
 
 {% block content_title %}
 
-    Posts
+    Posts{% if q %} for "{{ q }}" search:{% endif %}
 
 {% endblock %}
 
